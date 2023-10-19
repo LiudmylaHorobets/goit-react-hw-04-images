@@ -80,7 +80,7 @@ export function App() {
       {loadMore && !isLoading && images.length > 0 && (
         <Button onClick={loadMoreImages} />
       )}
-      {error && toast.error('Something went wrong')}{' '}
+      {error && toast.error('Something went wrong')}
       {isModalOpen && (
         <Modal imageURL={selectedImageURL} onClose={closeModal} tags={tags} />
       )}
