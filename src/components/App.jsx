@@ -1,11 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
 
-import { Searchbar } from './Searchbar/Searchbar.jsx';
-import { ImageGallery } from './ImageGallery/ImageGallery.jsx';
-import { MyLoader } from './Loader/Loader.jsx';
-import { Button } from './Button/Button.jsx';
-import { Modal } from './Modal/Modal.jsx';
-import { getImage } from '../pixabay-api.js';
+import { Searchbar } from './Searchbar/Searchbar';
+import { ImageGallery } from './ImageGallery/ImageGallery';
+import { MyLoader } from './Loader/Loader';
+import { Button } from './Button/Button';
+import { Modal } from './Modal/Modal';
+import { getImage } from '../pixabay-api';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
