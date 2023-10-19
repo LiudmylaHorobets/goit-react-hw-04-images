@@ -66,8 +66,12 @@ export function App() {
   };
 
   useEffect(() => {
+    if (query.trim() === '') {
+      return;
+    }
+
     loadImages();
-  }, [loadImages]);
+  }, [query, loadImages]);
 
   return (
     <div>
